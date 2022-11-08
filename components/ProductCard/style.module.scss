@@ -1,0 +1,9 @@
+.cardContainer {
+  width: 300px;
+  transition: ease;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  &:hover {
+    scale: 1.02;
+  }
+}

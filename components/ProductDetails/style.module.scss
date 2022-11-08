@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 100px;
+  .details {
+    width: 40vw;
+    .category {
+      background-color: #fff;
+      color: #000;
+      padding: 3px 8px;
+      border-radius: 2px;
+    }
+    .price {
+      font-size: 24px;
+      color: rgb(173, 159, 159);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    & {
+      flex-direction: column;
+      height: auto;
+      margin-top: 100px;
+      gap: 50px;
+      .details {
+        width: 95vw;
+      }
+    }
+  }
+}
